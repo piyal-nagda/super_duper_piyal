@@ -20,7 +20,7 @@ export const Hero = () => {
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               <motion.a
-                href="/src/assests/resume.pdf" 
+                href="./src/assests/resume.pdf" 
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -70,7 +70,7 @@ export const Hero = () => {
           >
             <div className="rounded-full w-full max-w-md mx-auto overflow-hidden shadow-2xl border-4 border-primary">
               <img
-                src="/src/assests/abc.jpg"
+                src="./src/assests/abc.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
