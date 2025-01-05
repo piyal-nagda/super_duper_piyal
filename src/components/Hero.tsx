@@ -70,7 +70,7 @@ export const Hero = () => {
           >
             <div className="rounded-full w-full max-w-md mx-auto overflow-hidden shadow-2xl border-4 border-primary">
               <img
-                src="./src/assests/abc.jpg"
+                src="src/assests/abc.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
