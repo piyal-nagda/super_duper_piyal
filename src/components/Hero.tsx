@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FileText, Github, Linkedin, Mail } from 'lucide-react';
-import photo from './assests/photo.jpg';
+import photo from './assests/abc.jpg';
 
 export const Hero = () => {
   return (
