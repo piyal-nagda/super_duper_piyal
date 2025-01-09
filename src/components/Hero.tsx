@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FileText, Github, Linkedin, Mail } from 'lucide-react';
+import photo from './assests/photo.jpg';
 
 export const Hero = () => {
   return (
@@ -70,8 +71,7 @@ export const Hero = () => {
           >
             <div className="rounded-full w-full max-w-md mx-auto overflow-hidden shadow-2xl border-4 border-primary">
               <img
-                src="src/assests/abc.jpg"
-                alt="Profile"
+                src={photo} alt="Photo" 
                 className="w-full h-full object-cover"
               />
             </div>
